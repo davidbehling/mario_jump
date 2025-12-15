@@ -19,16 +19,16 @@ Projeto criado com foco **educacional e de portfólio**, demonstrando:
 
 > O jogo roda diretamente no navegador, **sem dependências externas**.
 
-📌 **Objetivo:**  
+## 📌 Objetivo
 Pular os obstáculos no tempo correto e evitar colisões.
 
 
-# 🕹️ Controles
+## 🕹️ Controles
 
 - **Barra de espaço** → Pular
 
 
-# 📌 Funcionalidades
+## 📌 Funcionalidades
 
 - 🏃 Animação contínua do personagem
 - 🚧 Obstáculos em movimento
@@ -38,12 +38,11 @@ Pular os obstáculos no tempo correto e evitar colisões.
 - ⚡ JavaScript puro (sem frameworks)
 
 
-# 🏗️ Arquitetura do Projeto
+## 🏗️ Arquitetura do Projeto
 
 Fluxo simples e eficiente:
 
 ```
-
 HTML (estrutura)
 ↓
 CSS (estilo e animações)
@@ -52,26 +51,33 @@ JavaScript (lógica do jogo)
 
 ```
 
-
-# 📂 Estrutura de Diretórios
+## 📂 Estrutura de Diretórios
 
 ```
-
 mario_jump/
-├── images/                # Sprites e imagens do jogo
-│   ├── mario.gif
-│   └── pipe.png
-│
-├── index.html             # Estrutura principal do jogo
-├── style.css              # Estilos e animações
-├── script.js              # Lógica do jogo
-└── README.md              # Documentação
+├── css
+│   └── style.css
+├── images
+│   ├── clouds.png
+│   ├── explosion4.gif
+│   ├── game-over.png
+│   ├── mario.gif
+│   ├── missel2.png
+│   └── pipe.png
+├── js
+│   └── script.js
+├── sons
+│   ├── explodcl.mp3
+│   ├── mario-dead.mp3
+│   ├── maro-jump-sound-effect_1.mp3
+│   ├── Super-Mario-Bros-medley.mp3
+│   └── tiro.mp3
+├── index.html
+└── README.md
 
 ````
 
-
-
-# ⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 
 - **HTML5**
 - **CSS3**
@@ -83,14 +89,14 @@ mario_jump/
   - Intervalos e timers
 
 
-# 🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
-## Opção 1 — Abrir direto no navegador
+### Opção 1 — Abrir direto no navegador
 ```bash
 Abra o arquivo index.html no navegador
 ````
 
-## Opção 2 — Usar Live Server (VSCode)
+### Opção 2 — Usar Live Server (VSCode)
 
 1. Instale a extensão **Live Server**
 2. Clique com o botão direito no `index.html`
@@ -98,7 +104,7 @@ Abra o arquivo index.html no navegador
 
 
 
-# 🧠 Lógica Principal (Resumo)
+## 🧠 Lógica Principal (Resumo)
 
 * O personagem recebe uma classe `jump` ao pressionar a tecla
 * O obstáculo se move continuamente via CSS
@@ -106,10 +112,13 @@ Abra o arquivo index.html no navegador
 * Ao detectar colisão → **Game Over**
 
 
-# 🚀 Possíveis Evoluções
+## 🚀 Possíveis Evoluções
 
 * 🏆 Sistema de pontuação
 * 🔊 Efeitos sonoros
 * 📱 Suporte a mobile (toque na tela)
 * 🔄 Reiniciar jogo sem recarregar
 * 🎮 Aumento progressivo da dificuldade
+
+## 🖥️ Tela
+![game](https://github.com/davidbehling/mario_jump/blob/main/public/print.png)
