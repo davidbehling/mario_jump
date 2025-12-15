@@ -107,4 +107,15 @@ const loop = setInterval(() => {
     show_missel()         
 }, 10)
 
+// Controles para desktop (teclado)
 document.addEventListener('keydown', jump)
+
+// Controles para mobile (toque na tela)
+document.addEventListener('touchstart', (e) => {
+    e.preventDefault()
+    jump()
+})
+
+// Alternativa: toque no game-board
+const gameBoard = document.querySelector('.game-board')
+gameBoard.addEventListener('click', jump)

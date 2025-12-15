@@ -101,3 +101,122 @@
         right: 100%;
     }
 }
+
+/* Responsividade para Smartphones */
+@media (max-width: 768px) {
+    .game-board {
+        height: 350px;
+        border-bottom: 10px solid rgb(35, 160, 35);
+    }
+
+    .mario {
+        width: 100px;
+    }
+
+    .pipe {
+        width: 60px;
+        animation: pipe-animation 2.5s infinite linear;
+    }
+
+    .clouds {
+        width: 350px;
+        animation: clouds-animation 12s infinite linear;
+    }
+
+    .missel {
+        width: 100px;
+        bottom: 100px;
+        animation: missel-animation 1.8s infinite linear;
+    }
+
+    @keyframes jump-animation {
+        0% {
+            bottom: 0;
+        }
+
+        40% {
+            bottom: 120px;
+        }
+
+        50% {
+            bottom: 120px;
+        }
+
+        60% {
+            bottom: 120px;
+        }
+
+        100% {
+            bottom: 0;
+        }
+    }
+
+    @keyframes clouds-animation {
+        from {
+            right: -350px;
+        }
+
+        to {
+            right: 100%;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .game-board {
+        height: 280px;
+        border-bottom: 8px solid rgb(35, 160, 35);
+    }
+
+    .mario {
+        width: 80px;
+    }
+
+    .pipe {
+        width: 50px;
+        animation: pipe-animation 2s infinite linear;
+    }
+
+    .clouds {
+        width: 280px;
+        animation: clouds-animation 10s infinite linear;
+    }
+
+    .missel {
+        width: 80px;
+        bottom: 80px;
+        animation: missel-animation 1.5s infinite linear;
+    }
+
+    @keyframes jump-animation {
+        0% {
+            bottom: 0;
+        }
+
+        40% {
+            bottom: 100px;
+        }
+
+        50% {
+            bottom: 100px;
+        }
+
+        60% {
+            bottom: 100px;
+        }
+
+        100% {
+            bottom: 0;
+        }
+    }
+
+    @keyframes clouds-animation {
+        from {
+            right: -280px;
+        }
+
+        to {
+            right: 100%;
+        }
+    }
+}
