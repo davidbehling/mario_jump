@@ -122,3 +122,7 @@ Abra o arquivo index.html no navegador
 
 ## 🖥️ Tela
 ![game](https://github.com/davidbehling/mario_jump/blob/main/public/print.png)
+
+## 🔗 Link Teste
+
+https://mariojumpgit.netlify.app/
